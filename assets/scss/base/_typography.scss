@@ -1,0 +1,58 @@
+// Headings
+// -----------------------------------------------------------------------------
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em;
+  line-height: 120%;
+}
+
+h1 {
+  font-size: 1.6em;
+
+  @include breakpoint(md) {
+    font-size: 2.2em;
+  }
+}
+
+h2 {
+  font-size: 2.0em;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 130%;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.0em;
+  text-transform: uppercase;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 1.0em;
+}
+
+// Anchors
+// -----------------------------------------------------------------------------
+a {
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+// Rule
+// -----------------------------------------------------------------------------
+hr {
+  border-top: 1px solid $border-color;
+}

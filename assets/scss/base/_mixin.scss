@@ -1,0 +1,7 @@
+// Font Awesome.
+// Usage: @include fa(bars) { ... }
+// -----------------------------------------------------------------------------
+@mixin fa($icon) {
+  @extend .fa;
+  @extend .fa-#{$icon}
+}

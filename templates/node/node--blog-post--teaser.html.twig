@@ -1,0 +1,29 @@
+{#
+/**
+ * @file
+ * Template to display a Blog Post in Teaser mode.
+ */
+#}
+{% extends 'node.html.twig' %}
+{% set date = node.createdtime|format_date('date_medium') %}
+
+{% block content %}
+  <div class="row">
+    <div class="col-sm-5">
+      {{ content.field_blog_post_featured_image }}
+    </div>
+    <div class="col-sm-7">
+      {% if display_submitted %}
+        <div class="blog-post__date">{{ date }}</div>
+      {% endif %}
+
+      <h2 class="blog-post__title">
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+
+      {{ content.field_blog_post_body }}
+
+      <a href="{{ url }}" class="blog-post__readmore btn btn--xs">{% trans %} Read more {% endtrans %}</a>
+    </div>
+  </div>
+{% endblock %}

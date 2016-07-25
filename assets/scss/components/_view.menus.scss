@@ -1,0 +1,40 @@
+// View: Menus
+// -----------------------------------------------------------------------------
+.view--menus {
+
+  .view {
+
+    &__header {
+
+    }
+  }
+
+  > .view__content {
+
+    h2 {
+      margin: 2.0em 0 1.0em;
+    }
+
+    .view__row {
+
+      .node {
+        margin-bottom: 1.5em;
+        padding-bottom: 1.5em;
+        min-height: 130px;
+      }
+    }
+  }
+}
+
+// Views: Menu category
+// -----------------------------------------------------------------------------
+.view--menus--menus-by-category {
+
+  > .view__content {
+    margin-top: 2em;
+
+    h2 {
+      display: none;
+    }
+  }
+}

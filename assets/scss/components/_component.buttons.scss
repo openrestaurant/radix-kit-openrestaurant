@@ -1,0 +1,26 @@
+// Buttons
+// -----------------------------------------------------------------------------
+.btn {
+
+  &:hover {
+
+  }
+
+  &.btn--secondary {
+
+  }
+
+  &.btn--xs {
+    padding: 5px 10px 4px;
+    font-size: 0.83em;
+  }
+
+  &.btn--lg {
+    padding: 7px 60px 5px;
+    font-size: 1.2em;
+  }
+}
+
+.btn + .btn {
+  margin-right: 10px;
+}

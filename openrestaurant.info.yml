@@ -1,0 +1,44 @@
+name: 'RADIX_SUBTHEME_NAME'
+description: 'RADIX_SUBTHEME_DESCRIPTION'
+type: theme
+base theme: radix
+package: 'Open Restaurant'
+version: 2.0-dev
+core: 8.x
+hidden: true
+
+regions:
+  header: Header
+  sidebar_first: 'Sidebar first'
+  navigation: Navigation
+  hero: Hero
+  content: Content
+  bottom: Bottom
+  footer: Footer
+
+libraries:
+ - RADIX_SUBTHEME_MACHINE_NAME/global-styling
+
+demo_content:
+  - content/basic.blocks.yml
+  - content/pages.nodes.yml
+  - content/links.yml
+
+  - content/hero.images.yml
+  - content/hero.blocks.yml
+
+  - content/blog_posts.images.yml
+  - content/blog_posts.nodes.yml
+
+  - content/events.images.yml
+  - content/events.nodes.yml
+
+  - content/locations.images.yml
+  - content/locations.nodes.yml
+
+  - content/menus.nutrition_types.images.yml
+  - content/menus.nutrition_types.yml
+  - content/menus.menu_categories.yml
+
+  - content/menus.images.yml
+  - content/menus.nodes.yml

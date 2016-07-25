@@ -1,0 +1,55 @@
+// Event
+// -----------------------------------------------------------------------------
+.event {
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Event: Featured view mode
+// -----------------------------------------------------------------------------
+.event--featured {
+
+}
+
+// Event: Full view mode
+// -----------------------------------------------------------------------------
+.event--full {
+
+  .event {
+
+    &__location {
+
+    }
+
+    &__featured-image {
+
+      img {
+        display: block;
+      }
+    }
+
+    &__body {
+
+    }
+  }
+}
+
+// Hide extra address fields with CSS for now.
+// Wait for the Plain formatter: https://www.drupal.org/node/2525762
+// -----------------------------------------------------------------------------
+.event--featured,
+.event--teaser {
+
+  .address-line1,
+  .administrative-area,
+  .postal-code {
+    display: none;
+  }
+
+  br {
+    display: none;
+  }
+}

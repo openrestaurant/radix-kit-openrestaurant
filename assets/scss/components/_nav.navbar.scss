@@ -1,0 +1,77 @@
+// Navbar
+// -----------------------------------------------------------------------------
+.navbar.navbar-default {
+
+}
+
+// Do not stick the navbar when the toolbar is present.
+.toolbar-fixed.toolbar-horizontal {
+  .navbar.stuck {
+    position: static;
+  }
+}
+
+// Navbar collapse
+// -----------------------------------------------------------------------------
+.navbar-collapse {
+
+}
+
+
+// Navbar header
+// -----------------------------------------------------------------------------
+.navbar-header {
+
+  .btn {
+    margin: 8px 0 8px 15px;
+    padding: 6px 10px;
+
+    + .btn {
+      margin-left: 8px;
+    }
+  }
+}
+
+// Navbar toggle
+// -----------------------------------------------------------------------------
+.navbar-toggle {
+  padding: 5px 10px;
+  margin-right: 15px;
+
+  i {
+    vertical-align: middle;
+  }
+
+  .navbar-default & {
+
+    &:hover {
+      background-color: $brand-secondary;
+      border-color: $brand-secondary;
+      color: white;
+    }
+  }
+}
+
+// Navbar Nav
+// -----------------------------------------------------------------------------
+ul.navbar-nav {
+
+  li {
+
+    a {
+
+    }
+  }
+}
+
+// Dropdown menu
+// -----------------------------------------------------------------------------
+ul.dropdown-menu {
+
+  li {
+
+    a {
+
+    }
+  }
+}

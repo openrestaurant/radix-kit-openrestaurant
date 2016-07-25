@@ -1,0 +1,67 @@
+// Text helpers
+// -----------------------------------------------------------------------------
+.text {
+
+  &--normal {
+    @extend p;
+  }
+
+  &--large {
+    font-size: 1.2em;
+    line-height: 140%;
+  }
+
+  &--small {
+    font-size: 0.85em;
+    line-height: 150%;
+  }
+
+  &--extrasmall {
+    font-size: 0.65em;
+    line-height: 180%;
+  }
+
+  &--italic {
+    font-style: italic;
+  }
+
+  &--bold {
+    font-weight: 800;
+  }
+  
+  &--semi-bold {
+    font-weight: 600;
+  }
+  
+  &--light {
+    font-weight: 300;
+  }
+  
+  &--extra-light {
+    font-weight: 200;
+  }
+
+  &--left {
+    text-align: left;
+  }
+
+  &--right {
+    text-align: right;
+  }
+
+  &--center {
+    text-align: center;
+  }
+
+  &--uppercase {
+    text-transform: uppercase;
+  }
+
+  &--lowercase {
+    text-transform: lowercase;
+  }
+
+  &--capitalize {
+    text-transform: capitalize;
+  }
+}

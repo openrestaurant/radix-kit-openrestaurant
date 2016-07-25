@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * Template for a nutrition type term.
+ */
+#}
+{% extends 'taxonomy-term.html.twig' %}
+
+{% block content %}
+  <div class="nutrition-type__icon">
+    {{ content.field_nutrition_type_icon }}
+  </div>
+
+  <div class="nutrition-type__name">
+    {{ name }}
+  </div>
+{% endblock %}
